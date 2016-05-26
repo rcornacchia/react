@@ -26,3 +26,16 @@ function render() {
 
 window.addEventListener('hashchange', render);
 render();
+render() {
+   var route = window.location.hash.substr(1);
+   React.render(<App route={route} />, document.getElementById('app'));
+}
+
+window.addEventListener('hashchange', render);
+render() render() {
+    var route = window.location.hash.substr(1);
+    React.render(<App route={route} />, document.getElementById('app'));
+}
+
+window.addEventListener('hashchange', render);
+render()
